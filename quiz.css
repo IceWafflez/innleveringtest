@@ -1,0 +1,55 @@
+/* .panel{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+
+.container1,.container2 ,.container3,.container4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.next{
+    /* display: none !important; */
+    display: none;
+}
+
+.option{
+    background-color: lightskyblue;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.evaluate, .forrige {  background-color: rgb(19, 161, 179);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.next{
+    background-color: rgb(19, 161, 179);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

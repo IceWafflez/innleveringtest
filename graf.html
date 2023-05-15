@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="graf.css">
+    <script src="header.js" defer></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+   
+
+</head>
+<body>
+    <div id="template"></div>
+    <br>
+    <div class="button-group">
+        <select class="btn1" id="valg" onchange="giveSelection(this.value)">
+                <option value="a">Velg en graftype som du skal vise frem</option>
+                <option value="stolpe">stolpediagram</option>
+                <option value="sektor">sektordiagram</option>
+                <option value="linje">linjediagram</option>
+              </select>
+    
+            <button class="btn2" onclick="leggtil()">Legg til kategori og data i grafen</button>
+
+            <button   onclick="randomData()">Testdata</button>
+        
+            <button class="btn3" onclick="reset()">reset alle kategorier og data</button>
+
+            <button class="btn4"  onclick="lagListe()">Lag grafen</button>
+       
+      </div>
+ 
+
+
+      <br>
+<div id="canvasMain" ></div>      
+<canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+
+
+    
+</body>
+<script src="graf.js"></script> 
+</html>
